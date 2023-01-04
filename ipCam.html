@@ -179,7 +179,7 @@
             if (mVideo.readyState !== 4 && mVideo.readyState !== 3 && mVideo.paused === false) {
 
                 if (hd === 0) { uniqId = cam_id } else { uniqId = "bG3STHyR" }
-
+                const meter = 1, meter4 = 1;
                 $.getJSON("https://sn.rtsp.me/error/" + uniqId + ".json?lang=en&meter=" + meter + "&meter4=" + meter4 + "", function (data) {
 
 
